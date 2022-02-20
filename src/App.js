@@ -146,7 +146,6 @@ const paginate = (pageNumber) => setCurrentPage(pageNumber);
                      placeholder="Your Name"
                      onChange={handleUsername}
                      value={username}
-                     id="name"
                      required
                      /></div>
                      
