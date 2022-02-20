@@ -1,5 +1,4 @@
-import React,{Fragment, useEffect, useState} from 'react';
-
+import React,{ useEffect, useState} from 'react';
 import {Modal}  from 'react-bootstrap';
 import Paginations from './Paginations';
 
@@ -17,7 +16,7 @@ const Horizontal = ({posts, postsPerPage, totalPosts, paginate}) => {
     }, [posts]);
 
     const deleteShow = (id) => {
-       const newArray = array.filter((ele)=>ele.id!=id);
+       const newArray = array.filter((ele)=>ele.id!==id);
        setArray(newArray);
     }
    
